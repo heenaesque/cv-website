@@ -1,0 +1,128 @@
+*{
+color: black;
+font-family:Arial, Helvetica, sans-serif;
+background-color: white; 
+
+/* font-size: large; */
+    
+}
+/* 
+body{background-color: black;} */
+
+
+
+h1{ font-size: 50px;
+}
+
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+    padding: 20px;
+    text-align: right;
+
+
+}
+
+.centre-content{
+    text-align: center;
+}
+
+.projects-landscape-image{
+    height: 300px;
+    width: 450px;
+    border: 5px white solid;
+        }
+
+.projects-portrait-image{
+    height:450px;
+    width: 300px;
+    border: 5px white solid;
+    
+}
+
+
+.homepage-image {
+    height: 900px;
+    width: 600px;
+    
+}
+
+.project-formatting{
+    padding: 10px;
+    margin: 20px;
+    border: violet 5px solid;
+    width: 900px;
+    
+
+}
+
+.blogpost-formatting{
+    padding: 10px;
+    margin: 20px;
+    border: forestgreen 5px solid;
+    width: 900px;
+       
+
+}
+
+    * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  
+   
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px; */
+  /* } */
+  
+  /* Responsive layout - when the screen is less than 800px wide, 
+  make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+    width: 100%;
+      padding: 0;
+    }
+  }
+
+
